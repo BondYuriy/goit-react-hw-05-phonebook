@@ -1,0 +1,13 @@
+.container {
+  width: 500px;
+  background-color: #fff;
+  margin: auto;
+  padding: 20px 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo {
+  margin: 0 0 20px 0;
+  color: #4040af;
+}
