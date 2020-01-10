@@ -58,6 +58,7 @@ export default class ContactForm extends Component {
             value={name}
             onChange={this.handleChange}
             id={inputId.inputName}
+            required
           />
         </label>
         <label className={styles.label} htmlFor={inputId.inputNumber}>
@@ -69,6 +70,7 @@ export default class ContactForm extends Component {
             value={number}
             onChange={this.handleChange}
             id={inputId.inputNumber}
+            required
           />
         </label>
         <button className={styles.btn} type="submit">
