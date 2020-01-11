@@ -66,7 +66,7 @@ export default class App extends Component {
     const { contacts, filter } = this.state;
 
     const filteredFriends = contacts.filter(friend =>
-      friend.name.toLocaleLowerCase().includes(filter),
+      friend.name.toLocaleLowerCase().includes(filter.toLocaleLowerCase()),
     );
 
     return (
